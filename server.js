@@ -27,7 +27,7 @@ passport.use(new WebAppStrategy({
     clientId:"db3a0d34-d810-4d8c-a90c-d44c353bd54e",
     secret:"NzE5ZDZjNWMtZjM1Yy00ZjRhLWFiZDAtZDE1YjFmMTRmMjA5",
     oauthServerUrl:"https://eu-gb.appid.cloud.ibm.com/oauth/v4/9265e7ce-1207-4724-8f5d-67e4511c51e6",
-    redirectUri:"http://localhost:8080/appid/callback"
+    redirectUri:"http://nodefull-sahal.gamification-d3c0cb24e2b77f6869027abe3de4bca3-0001.sng01.containers.appdomain.cloud/appid/callback"
 }));
 
 //Handle Login
