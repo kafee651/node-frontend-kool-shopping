@@ -57,7 +57,7 @@ app.use('/api', (req,res,next) =>{
 });
 
 app.get('/api/user',(req,res)=>{
-    console.log(req.session[WebAppStrategy.AUTH_CONTEXT]);
+   // console.log(req.session[WebAppStrategy.AUTH_CONTEXT]);
 
     res.json({
         user:{
